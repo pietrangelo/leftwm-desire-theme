@@ -13,6 +13,11 @@ ln -s ${SCRIPTPATH}/down /tmp/leftwm-theme-down
 # polkit-gnome to manage user session
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &> /dev/null &
 
+#volume icon
+if [ -x "$(command -v volumeicon)" ]; then
+  volumeicon &> /dev/null &
+fi
+
 # clipit
 if [ -x "$(command -v clipit)" ]; then
   clipit &> /dev/null &
