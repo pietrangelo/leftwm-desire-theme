@@ -7,6 +7,7 @@ pkill picom
 pkill polybar
 pkill dunst
 pkill clipit
+pkill polkit-gnome
 
 #remove desire.conf symlink and, remove appended text
 cd $HOME/.config/kitty/
