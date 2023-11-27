@@ -6,8 +6,8 @@ leftwm-command "UnloadTheme"
 pkill picom
 pkill polybar
 pkill dunst
-pkill clipit
-pkill polkit-gnome
+pkill klipper
+@pkill polkit-gnome
 pkill volumeicon
 
 #remove desire.conf symlink and, remove appended text
