@@ -7,8 +7,9 @@ pkill picom
 pkill polybar
 pkill dunst
 pkill klipper
-@pkill polkit-gnome
+pkill polkit-kde
 pkill volumeicon
+pkill kded5
 
 #remove desire.conf symlink and, remove appended text
 cd $HOME/.config/kitty/
